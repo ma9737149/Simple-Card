@@ -1,4 +1,4 @@
-##ABOUT PROJECT AND SOME ABOUT ME
+<h1>ABOUT PROJECT AND SOME ABOUT ME</h1>
 - 👋 Hi, I’m Ahmed.
 - 👀 I’m interested in programming and I love creating discord bots .
 - 🌱 I’m currently learning css .
