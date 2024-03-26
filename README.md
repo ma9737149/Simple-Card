@@ -3,9 +3,10 @@
 <br>
 - 👀 I’m interested in programming and I love creating discord bots .
 <br>
-- languages I learned
+
 <hr>
 <ul>
+  <li style="list-style:none">- languages I learned</li>
 
   <li>HTML</li>
   <li>CSS</li>
