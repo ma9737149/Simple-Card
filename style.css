@@ -1,0 +1,139 @@
+/* GLOBAL VARAIBLES */
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%)
+}
+
+
+
+
+/* END GLOBAL */
+
+/* FONTS */
+@font-face {
+    font-family: "Figtree-bold";
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
+/* END FONTS */
+
+
+
+body{
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Yellow);
+}
+
+
+
+.card .child{
+    line-height: 1.7;
+    width: 305px;
+    font-family: "Figtree";
+    background-color: var(--White);
+    border:1px solid var(--Black);
+    border-radius: 20px;
+    box-shadow: 5px 6px 1px var(--Black);
+    padding: 15px;
+    position: relative;
+
+}
+
+.card .child  .title{
+    font-family: "Figtree-bold";
+ 
+}
+
+.card .child .image-1{
+    border-radius: 17px;
+    width: 305px;
+}
+
+.card .child .footer .image-2{
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    top: 7px;
+
+}
+
+.card .child .status {
+    background-color: var(--Yellow);
+    padding: 4px;
+    border-radius:4px ;
+    margin-bottom: -21px;
+    margin-top: -5px;
+    display: block;
+    width: fit-content;
+}
+
+.card .child span:not(.status):not(:last-of-type){
+    display: block;
+    width: fit-content;
+    margin-bottom: -21px;
+}
+
+.card .child .image-1{
+    margin-bottom: 10px;
+}
+
+.card .child .title{
+    font-size: 20px;
+}
+
+.card .child span:not(.status):not(:last-of-type):not(.title){
+    font-size: 14px;
+}
+
+
+.card .child .description{
+    color:gray
+}
+
+.card .child .created-at{
+    color: rgb(62, 61, 61);
+    display: block;
+    margin-top: 7px;
+}
+
+.card .child .footer .name {
+    font-size: 12px;
+    position: relative;
+    bottom: 4px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 375px){
+ .card .child {
+    width: 278px;
+    height: 441px;
+    padding: 20px 15px;
+    line-height: 1.7;
+ }
+ .card .child .image-1{
+    width: 278px;
+ }
+
+ .card .child .footer{
+    display: inline-block;
+    position: relative;
+    top: 30px;
+ }
+
+}
