@@ -5,8 +5,9 @@
 <br>
 
 <hr>
+Some Programming Languages What I Have.
 <ul>
-  <li style="list-style:none">languages I learned</li>
+
 
   <li>HTML</li>
   <li>CSS</li>
