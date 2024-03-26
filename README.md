@@ -6,7 +6,7 @@
 
 <hr>
 <ul>
-  <li style="list-style:none">- languages I learned</li>
+  <li style="list-style:none">languages I learned</li>
 
   <li>HTML</li>
   <li>CSS</li>
